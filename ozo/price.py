@@ -7,6 +7,7 @@ class Price:
     # b: the last structure either it was ls from highest or lowest
     @staticmethod
     def late_enter(highest, lowest, candles):
+        print(candles[0])
         print("highes: ", highest)
         print("lowest: ", lowest)
         a = candles[0]
@@ -87,7 +88,7 @@ class Price:
                 else:
                     position_b -= 1
         else:
-            return -1, {}
+            return -1, ()
 
 
     @staticmethod

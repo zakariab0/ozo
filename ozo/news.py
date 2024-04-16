@@ -36,12 +36,13 @@ class News:
                         fomc_flag = True
                 if event_time_str == '12:30pm' and currency == 'USD' and impact:
                     return "Bad day, 12:30pm event, USD currency, and high impact"
-                if high_impact_count > 3:
-                    return "Bad day, high impact news over 3, sleeping until tomorrow"
-                elif high_impact_count >= 1 and fomc_flag:
-                    return "Bad day, FOMC speaking USD, sleeping until tomorrow"
-                else:
-                    return "Good day"
+
+        if high_impact_count > 3:
+            return "Bad day, high impact news over 3, sleeping until tomorrow"
+        elif high_impact_count >= 1 and fomc_flag:
+            return "Bad day, FOMC speaking USD, sleeping until tomorrow"
+        else:
+            return "Good day"
         driver.quit()
 
 
