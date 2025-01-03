@@ -1,10 +1,8 @@
-Here’s a comprehensive `README.md` file for your Python trading library. It explains the purpose, functionality, and usage of each module and class in your project.
-
 ---
 
-# Python Trading Automation Library
+# Python Trading Automation Library (ICT Based)
 
-This Python library is designed to automate trading strategies using MetaTrader 5 (MT5). It provides tools for analyzing market data, executing trades, and managing trading sessions. The library is modular, making it easy to extend and customize for different trading strategies.
+This Python library is designed to automate Inner Circle Trading (ICT) trading strategies using MetaTrader 5 (MT5). It provides tools for analyzing market data, executing trades, and managing trading sessions. The library is modular, making it easy to extend and customize for different trading strategies.
 
 ---
 
