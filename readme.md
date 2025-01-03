@@ -45,8 +45,8 @@ This Python library is designed to automate trading strategies using MetaTrader 
 
 3. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/trading-automation.git
-   cd trading-automation
+   git clone https://github.com/zakariab0/ozo.git
+   cd ozo
    ```
 
 4. **Initialize MetaTrader 5**:
@@ -223,4 +223,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to customize this `README.md` to better suit your project. Let me know if you need further assistance! 🚀
+Feel free to contact me on mail: zakariabounouu@gmail.com . Let me know if you need further assistance! 🚀
